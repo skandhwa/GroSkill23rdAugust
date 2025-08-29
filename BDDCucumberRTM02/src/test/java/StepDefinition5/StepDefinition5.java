@@ -13,6 +13,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class StepDefinition5 {
+
+	System.out.println("Hello");
 	
 	@Before("@test1")
 	public void onlyBeforeTest1()
